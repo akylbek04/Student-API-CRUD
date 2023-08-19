@@ -1,0 +1,42 @@
+.addBtn{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    color: transparent;
+    background-color: transparent;
+    transition: 0.02s ease-in;
+}
+
+.addBtn:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+}
+
+
+.addBtn .add-icon{
+    color: rgb(197, 195, 195);
+    transition: 0.05s ease-in-out;
+}
+
+.addBtn .add-icon:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.debounce{
+    min-width: 50px;
+    border: 2px solid rgb(165, 164, 164);
+    border-radius: 5px;
+    margin-left: -100px;
+    transition: 0.1s ease-in-out;
+}
+
+.debounce:hover{
+    transform: scaleX(1.6);
+}
+
+.no-user{
+   font-size: 5rem;
+   margin: 20px 0;
+   color: lightgray;
+}
